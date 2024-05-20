@@ -22,12 +22,12 @@ setInterval(() => {
 // U CAN ONLY EDIT THIS SECTION!!
 function createBot () {
 const bot = mineflayer.createBot({
-  host: 'lajhsquad.aternos.me', 
+  host: 'lajhsquadnovo.aternos.me', 
   version: '1.18.2', // U can replace with 1.16.5 for example, remember to use ', = '1.18.3'
-  username: 'Noob', 
-  port: 55335, 
+  username: 'renatinto9', 
+  port: 23863, 
   plugins: [AutoAuth],
-  AutoAuth: 'Noob'
+  AutoAuth: 'renatinto9'
 })
 /// DONT TOUCH ANYTHING MORE!
 bot.loadPlugin(pvp)
